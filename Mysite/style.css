@@ -8,9 +8,13 @@ header {
   background-color: #ec715f;
   height: 70px;
   width: 100%;
+}
+
+.header-group {
   display: flex;
   justify-content: space-between;
 }
+
 img {
   height: 70px;
 }
@@ -365,6 +369,9 @@ footer {
   header {
     flex: none;
     height: 50px;
+  }
+  .header-group {
+    flex: none;
   }
   .container {
     width: 90%;
